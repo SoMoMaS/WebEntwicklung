@@ -8,13 +8,11 @@ $<!doctype html>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  </head>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
   <body>
       
-
-
-
-    <nav class="navbar navbar-expand-sm navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark sticky-top">
         <a class="navbar-brand" href="#">
           <img src="C:\Munka\FHWN\2019WS\Web_Entwicklung\GitHubWebEntwicklung\Bootstrap_Logo.png">
         </a>
@@ -44,7 +42,68 @@ $<!doctype html>
     </nav>
 
     <img src="C:\Munka\FHWN\2019WS\Web_Entwicklung\GitHubWebEntwicklung\il_794xN.1890084142_hzon.jpg" class="img-fluid">
+
+    
+    
+      <div data-aos="fade-up">
+          <div class="alert alert-primary" role="alert">
+              A simple primary alert—check it out!
+          </div>
+      </div>
+      
+      <div data-aos="fade-right">
+          <div class="alert alert-secondary" role="alert">
+              A simple secondary alert—check it out!
+            </div>
+      </div>
+      
+      <div data-aos="fade-left">
+          <div class="alert alert-success" role="alert">
+              A simple success alert—check it out!
+            </div>
+      </div>
+     
+      <div data-aos="fade-down-right">
+          <div class="alert alert-danger" role="alert">
+              A simple danger alert—check it out!
+            </div>
+      </div>
+      
+      <div data-aos="flip-left">
+          <div class="alert alert-warning" role="alert">
+              A simple warning alert—check it out!
+            </div>
+      </div>
+     
+      <div data-aos="fade-up" data-aos-duration="3000">
+          <div class="alert alert-info" role="alert">
+              A simple info alert—check it out!
+            </div>
+      </div>
+      
+      <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+          <div class="alert alert-light" role="alert">
+              A simple light alert—check it out!
+            </div>
+      </div>
+     
+      <div data-aos="fade-left" data-aos-anchor="#example-anchor" data-aos-offset="500" data-aos-duration="500">
+          <div class="alert alert-dark" role="alert">
+              A simple dark alert—check it out!
+          </div>
+      </div>
+      
+
+      <button type="button" class="btn btn-secondary" data-container="body" data-toggle="popover" data-placement="top" data-content="Some helpful text here.">
+          Helpful button
+        </button>
+      
     <!-- Optional JavaScript -->
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
